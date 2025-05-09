@@ -1,0 +1,32 @@
+
+  .bg-purple {
+  background-color: #b6b8b6 !important; /* Tailwind-like violet-400 */
+}
+  .bg-puple{
+    background-color: #b67def;
+  }
+  .custom-pple-btn {
+  background-color: #b67def; /* Light purple */
+  border: 1px solid #6212d1; /* Slightly darker light purple */
+  color: #6b46c1; /* Medium purple for text/icon */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-pple-btn:hover {
+  background-color: #9453f0;
+  border-color: #8241f3;
+}
+  .fade-in {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.3s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  max-height: 100px;
+  transform: scaleY(1);
+}
